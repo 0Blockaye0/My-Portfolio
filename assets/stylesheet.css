@@ -1,0 +1,52 @@
+/*MY PORTFOLIO STYLESHEET*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1, h2 {
+    padding: 15px;
+}
+
+.intro {
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li {
+    padding: 15px;
+    list-style: none;
+}
+
+.hero-img {
+    position: relative;
+    display: flex;
+    background-image: url(../assets/images/Portfolio\ hero\ img\ .jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 75px 300px 225px;
+}
+
+.hero-text p {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fae790;
+    text-shadow: 0 0 10px black;
+    padding: 50px 0 0 365px;
+}
