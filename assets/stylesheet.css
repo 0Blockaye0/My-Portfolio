@@ -67,3 +67,26 @@ nav ul li {
     text-shadow: 0 0 10px black;
 }
 
+.grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.grid-list img {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+footer {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.829);
+    text-align: center;
+    line-height: 1.5;
+    padding: 25px;
+}
