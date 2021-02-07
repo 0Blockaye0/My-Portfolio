@@ -45,6 +45,7 @@ nav ul li {
 }
 
 .hero-img {
+    filter: grayscale();
     height: 50%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/Portfolio\ hero\ img\ .jpg);
     background-position: bottom;
@@ -61,10 +62,23 @@ nav ul li {
     top: 26%;
     left: 52%;
     transform: translate(-50%, -50%);
-    color: #fff8bcad;
+    color: whitesmoke;
     font-size: 45px;
     font-style: italic;
     text-shadow: 0 0 10px black;
+}
+
+.my-work h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-color: black;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 40px 40px 10px;
 }
 
 .grid-list {
@@ -77,10 +91,18 @@ nav ul li {
     text-align: center;
 }
 
+.grid-list a {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
 .grid-list img {
     height: 400px;
     width: 400px;
     overflow: hidden;
+    padding: 5px;
+    border-style: inset;
 }
 
 footer {
