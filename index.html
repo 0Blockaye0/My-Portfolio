@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blake Johnson Portfolio</title>
     <link rel="stylesheet" href="./assets/stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
 </head>
+
 <body>
-<!--HEADER/INTRO & NAVIGATION-->
+    <!--HEADER/INTRO & NAVIGATION-->
     <header>
         <div class="intro">
             <h1>Welcome To The Portfolio Of:</h1>
@@ -17,16 +20,22 @@
         <nav>
             <ul>
                 <li>
-                    thiswork
+                    <a href="#Runbuddy">Runbuddy</a>
                 </li>
                 <li>
-                    thatwork
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Current Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a> 
                 </li>
             </ul>
         </nav>
 
     </header>
-<!--Hero Section-->
+    <!--Hero Section-->
     <section class="hero-img">
         <div class="hero-text">
             <p>
@@ -38,53 +47,68 @@
             </p>
         </div>
     </section>
-<!--EXAMPLES OF MY WORK SECTION-->
-    <section class="my-work">
-        <h2>Here is My Current Work</h2>
-            <ul class="grid-list">
-                <li class="runbuddy">
-                    <a href="https://0blockaye0.github.io/run-buddy/" class="runbuddy-link">Runbuddy</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/Screen Shot 2021-02-06 at 9.58.58 AM.png" />
-                        </div>
-                </li>
-                <li class="some-site">
-                    <a href="" class="some-site-link">Some Site</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
-                        </div>
-                </li>
-                <li class="some-site">
-                    <a href="" class="some-site-link">Some Site</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
-                        </div>
-                </li>
-                <li class="some-site">
-                    <a href="" class="some-site-link">Some Site</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
-                        </div>
-                </li>
-                <li class="some-site">
-                    <a href="" class="some-site-link">Some Site</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
-                        </div>
-                </li><li class="some-site">
-                    <a href="" class="some-site-link">Some Site</a>
-                        <div class="project-link-pics">
-                            <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
-                        </div>
-                </li>
-            </ul>
+    <!--ABOUT ME SECTION-->
+    <section id="about-me" class="aboutSection">
+        <div class="headshot">
+            <img src="./assets/images/Headshots/HeadShot-B&W.jpg" alt="Headshot" />
+        </div>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <div class="about-me-content">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, magni voluptatibus. Corrupti
+                    amet voluptatibus earum corporis aliquam mollitia. Eveniet tenetur consectetur neque quis rem quas
+                    totam iure repellat, quaerat rerum.
+                </p>
+            </div>
+        </div>
     </section>
-<!--FOOTER WITH CONTACT INFO-->
-    <footer>
+    <!--EXAMPLES OF MY WORK SECTION-->
+    <section id="Work" class="my-work">
+        <h2>Current Work</h2>
+        <ul class="grid-list">
+            <li id="Runbuddy" class="runbuddy">
+                <div>
+                    <a href="https://0blockaye0.github.io/run-buddy/" class="runbuddy-link">Runbuddy</a>
+                </div>
+                <img src="./assets/images/Screen Shot 2021-02-06 at 9.58.58 AM.png" />
+                </div>
+            </li>
+            <li id="something" class="some-site">
+                <a href="" class="some-site-link">Some Site 1</a>
+                <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
+                </div>
+            </li>
+            <li id="something" class="some-site">
+                <a href="" class="some-site-link">Some Site 2</a>
+                <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
+                </div>
+            </li>
+            <li id="something" class="some-site">
+                <a href="" class="some-site-link">Some Site 3</a>
+                <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
+                </div>
+            </li>
+            <li id="something" class="some-site">
+                <a href="" class="some-site-link">Some Site 4</a>
+                <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
+                </div>
+            </li>
+            <li id="something" class="some-site">
+                <a href="" class="some-site-link">Some Site 5</a>
+                <img src="./assets/images/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg" />
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--FOOTER WITH CONTACT INFO-->
+    <footer id="contact-me">
         <h3>Reach Me Here</h3>
-            <a href="mailto:blake.austin.dev@gmail.com">Email: blake.austin.dev@gmail.com</a>
-            <span>I woould love to hear from you</span>
+        <a href="mailto:blake.austin.dev@gmail.com">Email: blake.austin.dev@gmail.com</a>
+        <br />
+        <span>I would love to hear from you</span>
     </footer>
-    
+
 </body>
+
 </html>
