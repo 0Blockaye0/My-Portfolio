@@ -1,8 +1,28 @@
 /*MY PORTFOLIO STYLESHEET*/
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
+}
+a.nav-link:link {
+    color: whitesmoke;
+   text-decoration: none;
+}
+
+a.nav-link:visited {
+   color: whitesmoke;
+   text-decoration: none;
+}
+
+a.nav-link:hover {
+   color: whitesmoke;
+   text-decoration: none;
+}
+
+a.nav-link:activeb {
+   color: whitesmoke;
+   text-decoration: none;
 }
 
 header {
@@ -87,12 +107,11 @@ nav ul li {
 .about-me {
     width: 400px;
     height: auto;
-    margin-right: 100px;
     margin-top: 10px;
 }
 
 .about-me-content p {
-   padding: 10%
+    padding: 10%
 }
 
 .about-me h2 {
@@ -119,7 +138,9 @@ nav ul li {
 }
 
 .my-work {
-  background-color: black;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .my-work h2 {
@@ -139,7 +160,8 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -147,7 +169,7 @@ nav ul li {
 
 .grid-list a {
     display: flex;
-    margin: 320px 1px 25px 20px;
+    margin: 150px 1px 25px 20px;
     justify-content: flex-end;
     position: absolute;
     z-index: 10;
@@ -160,8 +182,21 @@ nav ul li {
     text-decoration: none;
 }
 
+.grid-box {
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.grid-box:hover {
+    opacity: 1;
+    
+}
+
+
+
 .grid-list img {
-    height: 400px;
+    object-fit: fill;
+    height: 200px;
     width: 400px;
     overflow: hidden;
     padding: 5px;
@@ -170,10 +205,102 @@ nav ul li {
     margin: 20px
 }
 
+#runbuddy-img {
+    height: 250px;   
+    width: 500px;
+}
+
 footer {
     color: whitesmoke;
     background-color: #145564;
     text-align: center;
     line-height: 1.5;
     padding: 25px;
+}
+ 
+/*Media Queries/////*/
+
+@media screen and (max-width: 480px) {
+
+    .intro {
+        margin: auto;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+    }
+
+    nav ul li {
+        padding: 7px
+    }
+
+    nav a {
+        font-size: small;
+    }
+
+    .my-work h2, .about-me h2 {
+        width: 175px;
+        font-size: x-large;
+    }
+
+    .about-me h2 {
+        padding-top: 0%;
+    }
+
+    .grid-list img {
+        height: 150px;
+        width: 220px;
+        margin: 30px;
+    }
+
+    #runbuddy-img {
+        height: 200px;   
+        width: 275px;
+        }
+
+    .grid-list a {
+        display: flex;
+        margin: auto;
+        position: absolute;
+        padding: 3px;
+        font-size: 17px;
+        margin-top: 125px;
+        margin-left: 30px;
+    }
+
+    .headshot img {
+        width: 150px;
+        height: auto;
+        margin: 25px
+    }
+
+    .hero-img {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .hero-text {
+        font-size: xx-large;
+    }
+
+    footer {
+        padding: 10px
+    }
+
+    footer h3 {
+        font-size: smaller50;
+    }
+
+    .grid-box {
+        opacity: 1;
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-box {
+        opacity: 1;
+        transition: none;
+    }
 }
