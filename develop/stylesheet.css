@@ -74,7 +74,7 @@ nav ul li {
 
 .hero-img {
     height: 50%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/simple-background-abstract-slick.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/simple-background-abstract-slick.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
